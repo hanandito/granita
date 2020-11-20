@@ -1,0 +1,124 @@
+body{
+    transition: all .3s;
+    letter-spacing: 0.2px;
+    position: relative;
+    height: 100%;
+}
+.preloader {
+    transition: all .3s;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    z-index: 9999;
+    background: url("../images/preloader.gif") center no-repeat #fbfbfb;
+}
+*{
+    transition: all .3s;
+}
+@font-face{
+    font-family: "Lato Regular";
+    src: url(Lato-Regular.ttf) format("truetype");
+}
+@font-face{
+    font-family: "GildaDisplay Regular";
+    src: url(GildaDisplay-Regular.ttf) format("truetype");
+}
+@font-face{
+    font-family: "Montserrat Bold";
+    src: url(Montserrat-Bold.ttf) format("truetype");
+}
+h1, h2, h3, h4, h5, h6{font-family: "GildaDisplay Regular";}
+p,a,label,th,td,li{
+    font-family: "Lato Regular";
+    font-size :  15px;
+}
+a:hover{
+	text-decoration: none;
+}
+a .text-blue:hover{
+	color: #0530b9;
+}
+.text-brown{
+    color: #b7926a;
+}
+.background-grey{
+    background-color: #d3c8be;
+}
+.font-montserrat-bold{
+    font-family: "Montserrat Bold";
+}
+.banner-home{
+    z-index: 1;
+    position: relative;
+}
+.banner-home .background{
+    background-image: url(../images/background-dark-grey-05.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 120px;
+}
+.origin-home .background{
+    background-image: url(../images/background-dark-origin-05.jpg);
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+}
+.nav-granita .logo{
+    position: absolute;
+    z-index: 3;
+    top: 25px;
+    left: 40px;
+}
+.nav-menu{
+    position: absolute;
+    right: 40px;
+    top: 15px;
+    z-index: 3;
+}
+.nav-menu ul{
+    display: flex;
+    list-style: none;
+}
+.nav-menu ul li{
+    margin: 20px 30px;
+}
+.nav-menu ul li a{
+    color: #fff;
+}
+.products{
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+.carousel-homebanner .content-desc{
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    transform: translate(-50%);
+}
+.carousel-homebanner .img-product{
+    width: 620px !important;
+    float: right;
+    margin-top: 120px;
+    margin-right: 50px;
+}
+.origin-home .ornament_top{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.origin-home .ornament_bottom{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.origin-home .content{
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 0;
+}
