@@ -43,6 +43,12 @@ a .text-blue:hover{
 .text-brown{
     color: #b7926a;
 }
+.text-gray{
+    color: #514f4c;
+}
+.text-lightgray{
+    color: #d3c8be;
+}
 .background-grey{
     background-color: #d3c8be;
 }
@@ -121,4 +127,10 @@ a .text-blue:hover{
     left: 50%;
     transform: translate(-50%);
     z-index: 0;
+}
+.origin-home .title-origin{
+    position: fixed;
+    top: 27%;
+    left: 45%;
+    transition: none;
 }
