@@ -170,4 +170,6 @@ a .text-blue:hover{
     position: relative;
     background-attachment: fixed;
     z-index: 3;
+    padding-top: 100px;
+    padding-bottom: 70px;
 }
