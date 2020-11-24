@@ -56,7 +56,7 @@ a .text-blue:hover{
     font-family: "Montserrat Bold";
 }
 .banner-home{
-    z-index: 1;
+    z-index: 2;
     position: relative;
 }
 .banner-home .background{
