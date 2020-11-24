@@ -42,7 +42,7 @@ $(document).ready(function(){
       'transform':'translateY('+(windowTop) * -0.1 +'px)'
     });
     $('.move-topcontact').css({
-      'transform':'translateY('+(windowTop) * -0.1 +'px)'
+      'transform':'translateY('+(windowTop) * -1 +'px)'
     });
   });
 });
