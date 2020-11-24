@@ -130,7 +130,8 @@ a .text-blue:hover{
 }
 .origin-home .title-origin{
     position: fixed;
-    top: 27%;
-    left: 45%;
+    top: 34%;
+    left: 32%;
     transition: none;
+    z-index: 3;
 }
