@@ -20,6 +20,9 @@ body{
 .w-80{
     width: 80%;
 }
+.w-85{
+    width: 85%;
+}
 @font-face{
     font-family: "Lato Regular";
     src: url(Lato-Regular.ttf) format("truetype");
