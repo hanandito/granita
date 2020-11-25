@@ -58,6 +58,9 @@ a .text-blue:hover{
 .background-grey{
     background-color: #d3c8be;
 }
+.background-lightgrey{
+    background-color: #eae6de;
+}
 .font-montserrat-bold{
     font-family: "Montserrat Bold";
 }
@@ -175,4 +178,23 @@ a .text-blue:hover{
     z-index: 3;
     padding-top: 100px;
     padding-bottom: 70px;
+}
+.footer{
+    position: relative;
+    z-index: 3;
+}
+.underline-brown{
+    text-decoration: none; 
+    position: relative;
+}
+.underline-brown::after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    bottom: -4px;
+    margin: 0 6px;
+    left: 0;
+    right: 0;
+    width: 13%;
+    background: #b7926a;
 }
