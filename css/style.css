@@ -165,6 +165,9 @@ a .text-blue:hover{
     border-width: 2px;
     padding: 10px 20px;
 }
+.products .button-detail-products .button-products:hover{
+    background-color: #fff;
+}
 .granita-ideas{
     background-image: url(../images/granita-ideas-bg.jpg);
     position: relative;
