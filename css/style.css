@@ -36,7 +36,7 @@ body{
     src: url(Montserrat-Bold.ttf) format("truetype");
 }
 h1, h2, h3, h4, h5, h6{font-family: "GildaDisplay Regular";}
-p,a,label,th,td,li{
+p,a,label,th,td,li, input, textarea{
     font-family: "Lato Regular";
     font-size :  15px;
 }
@@ -197,4 +197,22 @@ a .text-blue:hover{
     right: 0;
     width: 13%;
     background: #b7926a;
+}
+.hr-form-footer{
+    width: 92%;
+    margin: 10px auto 0;
+    background-color: #bcbcbc;
+}
+.footer .button-submit{
+    border-color: #fff;
+    color: #514f4c;
+    font-family: "GildaDisplay Regular";
+    border-radius: 0;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.footer .button-submit:hover{
+    background-color: #fff;
 }
