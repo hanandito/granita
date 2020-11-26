@@ -216,3 +216,6 @@ a .text-blue:hover{
 .footer .button-submit:hover{
     background-color: #fff;
 }
+.textarea-noresize {
+    resize: none;
+  }
