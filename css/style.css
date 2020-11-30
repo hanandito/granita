@@ -230,10 +230,14 @@ a .text-blue:hover{
     position: absolute;
     content: '';
     height: 2px;
-    bottom: -4px;
+    bottom: -16px;
     margin: 0 6px;
     left: 0;
     right: 0;
-    width: 13%;
+    width: 43%;
     background: #b7926a;
+}
+.underline-brown-products {
+    text-decoration: none;
+    position: relative;
 }
