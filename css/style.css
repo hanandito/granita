@@ -268,3 +268,12 @@ a .text-blue:hover{
     top: 50%;
     transform: translateY(-50%);
 }
+.carousel-products .button-products{
+    font-family: "GildaDisplay Regular";
+    font-size: 23px;
+    color: #514f4c;
+    border: 2px solid #fff;
+    padding: 13px 17px;
+    display: inline-block;
+    text-align: center;
+}
