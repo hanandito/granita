@@ -53,6 +53,9 @@ a .text-blue:hover{
 .text-gray{
     color: #514f4c;
 }
+.text-darkgray{
+    color: #2d2d2b;
+}
 .text-lightgray{
     color: #d3c8be;
 }

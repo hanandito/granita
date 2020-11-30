@@ -23,6 +23,26 @@
        }
      }
    })
+   $('.carousel-products').addClass('owl-carousel owl-theme').owlCarousel({
+   loop: true,
+   responsive:{
+     0: {
+       items: 1,
+       dots: true,
+       nav: false
+     },
+     600: {
+       items: 1,
+       dots: true,
+       nav: false
+     },
+     1000: {
+       items: 2,
+       dots: false,
+       nav: true
+     }
+   }
+ })
     /*Animation: Moving Ornament on Scroll*/
 $(document).ready(function(){
 
