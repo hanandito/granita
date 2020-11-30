@@ -256,6 +256,9 @@ a .text-blue:hover{
 .product-pages-wrapper .side-content{
     margin-left: 12rem;
 }
+.product-pages-wrapper{
+    padding-bottom: 15rem;
+}
 .carousel-products .owl-prev{
     position: absolute;
     left: 20px;
