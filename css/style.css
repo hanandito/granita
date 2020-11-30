@@ -244,3 +244,12 @@ a .text-blue:hover{
     text-decoration: none;
     position: relative;
 }
+.background-grey .divider{
+    height: 60%;
+    position: absolute;
+    width: 1px;
+    background-color: #c6ad96;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
