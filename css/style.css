@@ -278,3 +278,6 @@ a .text-blue:hover{
     text-align: center;
     margin-top: 20px;
 }
+.carousel-products .button-products:hover{
+    background-color: #fff;
+}
