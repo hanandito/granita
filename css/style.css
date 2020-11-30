@@ -254,5 +254,17 @@ a .text-blue:hover{
     transform: translate(-50%, -50%);
 }
 .product-pages-wrapper .side-content{
-    margin-left: 12rem;;
+    margin-left: 12rem;
+}
+.carousel-products .owl-prev{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.carousel-products .owl-next{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
 }
