@@ -39,6 +39,7 @@ h1, h2, h3, h4, h5, h6{font-family: "GildaDisplay Regular";}
 p,a,label,th,td,li, input, textarea{
     font-family: "Lato Regular";
     font-size :  15px;
+    letter-spacing: 0.5px;
 }
 a:hover{
 	text-decoration: none;
@@ -224,4 +225,15 @@ a .text-blue:hover{
     background-size: cover;
     background-position: center top;
     padding-top: 150px;
+}
+.underline-brown-products::after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    bottom: -4px;
+    margin: 0 6px;
+    left: 0;
+    right: 0;
+    width: 13%;
+    background: #b7926a;
 }
