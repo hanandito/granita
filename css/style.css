@@ -219,3 +219,9 @@ a .text-blue:hover{
 .textarea-noresize {
     resize: none;
   }
+.product-pages-wrapper{
+    background-image: url(../images/bg-dark-products-07.jpg);
+    background-size: cover;
+    background-position: center top;
+    padding-top: 200px;
+}
