@@ -25,7 +25,7 @@
    })
    $('.carousel-products').addClass('owl-carousel owl-theme').owlCarousel({
    loop: true,
-   navText: ["<img src='../images/carousel-nav-07.png'>","<img src='../images/carousel-nav-08.png'>"],
+   navText: ["<img src='https://granita.netlify.app/images/carousel-nav-07.png'>","<img src='https://granita.netlify.app/images/carousel-nav-08.png'>"],
    responsive:{
      0: {
        items: 1,
