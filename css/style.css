@@ -295,3 +295,14 @@ a .text-blue:hover{
     background-position: center top;
     padding-top: 150px;
 }
+.button-buy{
+    padding: 10px 25px;
+    border: 2px solid #fff;
+    color: #b7926a;
+    font-family: "GildaDisplay Regular";
+    transition: all .3s;
+}
+.button-buy:hover{
+    background-color: #fff;
+    color: #b7926a;
+}
