@@ -67,24 +67,3 @@ $(document).ready(function(){
     });
   });
 });
-gsap.registerPlugin(ScrollTrigger);
-
-const featureBoxes = document.querySelectorAll('.feature__info');
-
-ScrollTrigger.create({
-  trigger: ".features",
-  start: "top center",
-  end: "bottom center",
-  markers: true,
-  onToggle: self => {
-      let { direction, isActive } = self;
-
-      const featureBoxes = document.querySelectorAll('.feature__info');
-      if (direction == -1 && !isActive) {
-          featureBoxes[0].classList.add('active')
-      } else if (direction == 1 && !isActive) {
-          featureBoxes[featureBoxes.length - 1].classList.add('active')
-      }
-
-  }
-});
