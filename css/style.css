@@ -313,7 +313,14 @@ a .text-blue:hover{
     background-color: #d3c8be;
     border-radius: 50%;
     display: inline-block;
-    }
+}
+.dot-stats{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid #d3c8be;
+}
 .product-details-bottom .title-product{
     position: absolute;
     right: 0;
