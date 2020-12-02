@@ -314,7 +314,7 @@ a .text-blue:hover{
     border-radius: 50%;
     display: inline-block;
 }
-.dot-stats{
+.dot-stats-zero{
     height: 12px;
     width: 12px;
     border-radius: 50%;
