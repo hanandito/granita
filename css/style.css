@@ -124,6 +124,12 @@ a .text-blue:hover{
     margin-top: 120px;
     margin-right: 50px;
 }
+.carousel-homebanner .owl-dots{
+    position: absolute;
+    bottom: 120px;
+    left: 34.6%;
+    transform: translateX(-50%);
+}
 .origin-home .ornament_top{
     position: absolute;
     top: 0;
