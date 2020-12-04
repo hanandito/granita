@@ -164,7 +164,7 @@ a .text-blue:hover{
     margin-top: 250px;
 }
 .products .button-detail-products{
-    margin-top: 100px;
+    margin-top: 10px;
 }
 .products .button-detail-products .button-products{
     border-color: #fff;
@@ -343,4 +343,7 @@ a .text-blue:hover{
     right: 0;
     top: -70px;
     width: 20%;
+}
+.title-our-products{
+    margin-bottom: -200px;
 }
