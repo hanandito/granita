@@ -186,6 +186,12 @@ a .text-blue:hover{
     padding-top: 100px;
     padding-bottom: 70px;
 }
+.granita-ideas .ornament-top{
+    position: absolute;
+    top: 200px;
+    left: 0;
+    transition: none;
+}
 .footer{
     position: relative;
     z-index: 3;
