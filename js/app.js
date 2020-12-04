@@ -62,6 +62,9 @@ $(document).ready(function(){
     $('.move-top').css({
       'transform':'translateY('+(windowTop) * -0.1 +'px)'
     });
+    $('.move-bottom').css({
+      'transform':'translateY('+(windowTop) * -1.0 +'px)'
+    });
     $('.move-topcontact').css({
       'transform':'translateY('+(windowTop) * -1 +'px)'
     });
