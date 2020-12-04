@@ -195,6 +195,8 @@ a .text-blue:hover{
 .footer{
     position: relative;
     z-index: 3;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 .underline-brown{
     text-decoration: none; 
@@ -335,4 +337,10 @@ a .text-blue:hover{
     right: 0;
     top: 40%;
     transform: translate(-50%);
+}
+.footer .ornament-footer{
+    position: absolute;
+    right: 0;
+    top: -70px;
+    width: 20%;
 }
