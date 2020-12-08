@@ -135,12 +135,14 @@ a .text-blue:hover{
     top: 0;
     left: 0;
     transition: none;
+    z-index: 2;
 }
 .origin-home .ornament_bottom{
     position: absolute;
     right: 0;
     bottom: 0;
     transition: none;
+    z-index: 2;
 }
 .origin-home .content{
     position: absolute;
