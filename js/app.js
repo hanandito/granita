@@ -1,3 +1,15 @@
+$('.bubble-origin').click(function() {
+  $(".title-content").addClass("active");
+   $(".content-detail").addClass("active");
+   $(".bubble-origin").addClass("active");
+   $(".close-bubble").addClass("active");
+});
+$('.close-bubble').click(function() {
+  $(".title-content").removeClass("active");
+   $(".content-detail").removeClass("active");
+   $(".bubble-origin").removeClass("active");
+   $(".close-bubble").removeClass("active");
+})
  $('.carousel-homebanner').addClass('owl-carousel owl-theme').owlCarousel({
       animateOut: 'fadeOut',
       animateIn: 'fadeIn',
@@ -44,6 +56,7 @@
      }
    }
  })
+ 
     /*Animation: Moving Ornament on Scroll*/
 $(document).ready(function(){
 
