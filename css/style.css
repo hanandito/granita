@@ -480,3 +480,34 @@ a .text-blue:hover{
     visibility: visible;
     opacity: 1;
 }
+.pagi-nations{
+    position: sticky;
+    top: 80vh;
+    z-index: 90;
+    color: #fff;
+}
+.pagi-nations .number{
+    position: absolute;
+    left: 100px;
+    font-size: 45px;
+    color: #b7926a;
+    font-family: "GildaDisplay Regular";
+}
+.pagi-nations .number::before{
+    content: '';
+    width: 2px;
+    height: 40px;
+    background-color: #b7926a;
+    position: absolute;
+    left: 10%;
+    top: -30px;;
+}
+.pagi-nations .number::after{
+    content: '';
+    width: 2px;
+    height: 40px;
+    background-color: #b7926a;
+    position: absolute;
+    left: 10%;
+    top: 56px;;
+}
