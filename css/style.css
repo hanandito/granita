@@ -130,6 +130,15 @@ a .text-blue:hover{
     left: 34.6%;
     transform: translateX(-50%);
 }
+.origin-home{   
+    z-index: 2;
+    position: relative;
+    background-image: url(../images/background-dark-origin-05.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+}
 .origin-home .ornament_top{
     position: absolute;
     top: 0;
