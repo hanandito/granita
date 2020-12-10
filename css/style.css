@@ -495,7 +495,7 @@ a .text-blue:hover{
 }
 .pagi-nations .number::before{
     content: '';
-    width: 2px;
+    width: 1px;
     height: 40px;
     background-color: #b7926a;
     position: absolute;
@@ -504,7 +504,7 @@ a .text-blue:hover{
 }
 .pagi-nations .number::after{
     content: '';
-    width: 2px;
+    width: 1px;
     height: 40px;
     background-color: #b7926a;
     position: absolute;
