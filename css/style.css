@@ -76,6 +76,7 @@ a .text-blue:hover{
     background-repeat: no-repeat;
     width: 100%;
     background-attachment: fixed;
+    margin-top: -310px;
 }
 .banner-home .background{
     width: 100%;
@@ -86,17 +87,14 @@ a .text-blue:hover{
     width: 100%;
     background-attachment: fixed;
 }
-.nav-granita .logo{
-    position: absolute;
+#navbar-granita{
+    position: fixed;
+    top: 0;
+    left: 0;
     z-index: 3;
-    top: 25px;
-    left: 40px;
 }
-.nav-menu{
-    position: absolute;
-    right: 40px;
-    top: 15px;
-    z-index: 3;
+.nav-granita .logo{
+    margin-left: 40px;
 }
 .nav-menu ul{
     display: flex;
@@ -487,6 +485,29 @@ a .text-blue:hover{
     color: #fff;
     margin-bottom: 200px;
 }
+.socmed-links{
+    position: sticky;
+    top: 60vh;
+    z-index: 90;
+    color: #fff;
+    margin-bottom: 310px;
+}
+.wrap-links{
+    position: absolute;
+    right: 70px;
+    font-size: 45px;
+    color: #b7926a;
+    font-family: "GildaDisplay Regular";
+}
+.wrap-links::after{
+    content: '';
+    width: 1px;
+    height: 150px;
+    background-color: #b7926a;
+    position: absolute;
+    left: 49%;
+    top: 79px;
+}
 .pagi-nations .number{
     position: absolute;
     left: 100px;
@@ -510,5 +531,5 @@ a .text-blue:hover{
     background-color: #b7926a;
     position: absolute;
     left: 10%;
-    top: 56px;;
+    top: 56px;
 }
