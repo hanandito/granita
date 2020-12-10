@@ -485,6 +485,7 @@ a .text-blue:hover{
     top: 80vh;
     z-index: 90;
     color: #fff;
+    margin-bottom: 200px;
 }
 .pagi-nations .number{
     position: absolute;
