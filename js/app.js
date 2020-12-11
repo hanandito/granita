@@ -5,7 +5,7 @@ $('.bubble-origin').click(function() {
    $(".bubble-origin").addClass("active");
    $(".close-bubble").addClass("active");
 })
-$('.fa-times').click(function() {
+$('.close-bubble').click(function() {
   $(".title-content").removeClass("active");
    $(".content-detail").removeClass("active");
    $(".bubble-origin").removeClass("active");

@@ -101,7 +101,7 @@ a .text-blue:hover{
 }
 .nav-menu{
     position: absolute;
-    right: 0;
+    right: 30px;
     top: 30px;
 }
 .nav-menu ul{
