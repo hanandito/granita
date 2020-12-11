@@ -10,8 +10,8 @@ $('.close-bubble').click(function() {
    $(".content-detail").removeClass("active");
    $(".bubble-origin").removeClass("active");
    $(".close-bubble").removeClass("active");
-});
-});
+})
+})
  $('.carousel-homebanner').addClass('owl-carousel owl-theme').owlCarousel({
       animateOut: 'fadeOut',
       animateIn: 'fadeIn',
