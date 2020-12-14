@@ -5,11 +5,12 @@ $('.bubble-origin').click(function() {
   $(".bubble-origin").addClass("active");
   $(".close-bubble").addClass("active");
 })
-$('.close-bubble .fa-times').click(function() {
-  $(".title-content").removeClass("active");
-  $(".content-detail").removeClass("active");
-  $(".bubble-origin").removeClass("active");
-  $(".close-bubble").removeClass("active");
+$('.close-bubble').click(function(e) {
+  $('.title-content').removeClass('active');
+  $('.content-detail').removeClass('active');
+  $('.bubble-origin').removeClass('active');
+  $('.close-bubble').removeClass('active');
+  e.stopPropagation();
 })
 })
 //  Favor
