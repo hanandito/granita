@@ -1,15 +1,12 @@
 $(document).ready(function() {
 $('.bubble-origin').click(function() {
-  $(".title-content").addClass("active");
-  $(".content-detail").addClass("active");
-  $(".bubble-origin").addClass("active");
-  $(".close-bubble").addClass("active");
+  $(".bubble-origin-expand").addClass("active");
+  $(".bubble-origin").addClass("hide");
 })
 $('.close-bubble').click(function(e) {
-  $('.title-content').removeClass('active');
+  $('.bubble-origin-expand').removeClass('active');
   $('.content-detail').removeClass('active');
-  $('.bubble-origin').removeClass('active');
-  $('.close-bubble').removeClass('active');
+  $('.bubble-origin').removeClass('hide');
   e.stopPropagation();
 })
 })
