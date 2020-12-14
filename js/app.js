@@ -9,6 +9,14 @@ $('.close-bubble').click(function(e) {
   $('.bubble-origin').removeClass('hide');
   e.stopPropagation();
 })
+$('.bubble-origin-2').click(function() {
+  $('.bubble-origin-2-expand').addClass("active");
+  $('.bubble-origin-2').addClass("hide");
+})
+$('.close-bubble-2').click(function() {
+  $('.bubble-origin-2-expand').removeClass("active");
+  $('.bubble-origin-2').removeClass('hide');
+})
 })
 //  Favor
  $('.carousel-homebanner').addClass('owl-carousel owl-theme').owlCarousel({
