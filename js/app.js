@@ -1,24 +1,24 @@
-$(document).ready(function(){
+$(document).ready(function() {
 $('.bubble-origin').click(function() {
   $(".title-content").addClass("active");
-   $(".content-detail").addClass("active");
-   $(".bubble-origin").addClass("active");
-   $(".close-bubble").addClass("active");
+  $(".content-detail").addClass("active");
+  $(".bubble-origin").addClass("active");
+  $(".close-bubble").addClass("active");
 })
-$('.close-bubble').click(function() {
+$('.close-bubble .fa-times').click(function() {
   $(".title-content").removeClass("active");
-   $(".content-detail").removeClass("active");
-   $(".bubble-origin").removeClass("active");
-   $(".close-bubble").removeClass("active");
+  $(".content-detail").removeClass("active");
+  $(".bubble-origin").removeClass("active");
+  $(".close-bubble").removeClass("active");
 })
 })
+//  Favor
  $('.carousel-homebanner').addClass('owl-carousel owl-theme').owlCarousel({
       animateOut: 'fadeOut',
       animateIn: 'fadeIn',
       autoplay:true,
       autoplayTimeout: 5000,
      loop: true,
-     center: true,
      responsive:{
        0: {
          items: 1,
