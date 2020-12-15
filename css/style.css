@@ -638,3 +638,14 @@ a .text-blue:hover{
     left: 10%;
     top: 56px;
 }
+@media screen and (max-width: 414px) {
+    .carousel-homebanner .img-product{
+        float: none;
+        margin: auto;
+        width: auto !important;
+    }
+    .carousel-homebanner .content-desc h1{
+        font-size: 2rem;
+    }
+    
+}
