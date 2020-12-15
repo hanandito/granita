@@ -666,5 +666,10 @@ a .text-blue:hover{
     .origin-home .ornament_top img{
         width: 45%;
     }
-    
+    .origin-home .content {
+        width: 100%;
+    }
+    .origin-home .title-origin{
+        left: 5%;
+    }
 }
