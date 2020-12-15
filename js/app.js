@@ -22,7 +22,7 @@ $('.close-bubble-2').click(function() {
  $('.carousel-homebanner').addClass('owl-carousel owl-theme').owlCarousel({
       animateOut: 'fadeOut',
       animateIn: 'fadeIn',
-      autoplay:true,
+      autoplay:false,
       autoplayTimeout: 5000,
      loop: true,
      responsive:{

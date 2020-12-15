@@ -642,10 +642,17 @@ a .text-blue:hover{
     .carousel-homebanner .img-product{
         float: none;
         margin: auto;
-        width: auto !important;
+        width: 100% !important;
     }
     .carousel-homebanner .content-desc h1{
         font-size: 2rem;
+        text-align: left;
+    }
+    .carousel-homebanner .w-25.bg-white.my-4{
+        margin-left: 0;
+    }
+    .carousel-homebanner .content-desc{
+        text-align: left;
     }
     
 }
