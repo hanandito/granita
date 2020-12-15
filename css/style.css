@@ -643,6 +643,7 @@ a .text-blue:hover{
         float: none;
         margin: auto;
         width: 100% !important;
+        margin-top: 400px;
     }
     .carousel-homebanner .content-desc h1{
         font-size: 2rem;
@@ -653,6 +654,12 @@ a .text-blue:hover{
     }
     .carousel-homebanner .content-desc{
         text-align: left;
+    }
+    .carousel-homebanner .content-desc {
+        position: absolute;
+        top: 13%;
+        left: 12%;
+        transform: translate(0);
     }
     
 }
