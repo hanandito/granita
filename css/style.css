@@ -639,6 +639,9 @@ a .text-blue:hover{
     top: 56px;
 }
 @media screen and (max-width: 414px) {
+    h1{
+        font-size: 2rem;
+    }
     .carousel-homebanner .img-product{
         float: none;
         margin: auto;
@@ -646,7 +649,6 @@ a .text-blue:hover{
         margin-top: 400px;
     }
     .carousel-homebanner .content-desc h1{
-        font-size: 2rem;
         text-align: left;
     }
     .carousel-homebanner .w-25.bg-white.my-4{
