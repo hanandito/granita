@@ -113,12 +113,22 @@ a .text-blue:hover{
     display: flex;
     list-style: none;
 }
-.nav-menu ul li{
+.nav-menu > ul > li{
     margin: 20px 30px;
 }
 .nav-menu ul li a{
     color: #fff;
 }
+.nav-menu ul > li > ul{
+    display: block;
+    position: absolute;
+    text-align: right;
+    padding-left: 0;
+}
+.nav-menu ul > li > ul > li {
+    margin: 20px 0px;
+}
+/* PAGES */
 .products{
     position: relative;
     z-index: 1;

@@ -114,7 +114,7 @@ function classOnScroll(){
   let $box = $('.navbar-granita'),
       $scroll = $(window).scrollTop();
   
-  if($scroll > 70){
+  if($scroll > 40){
     if(!$box.hasClass('scrolled')) 
       $box.addClass('scrolled');
   }
