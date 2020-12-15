@@ -108,3 +108,23 @@ $( document ).ready(function() {
     $(window).trigger('scroll');
   });
 });
+
+//Create classOnScroll function
+function classOnScroll(){
+  let $box = $('.navbar-granita'),
+      $scroll = $(window).scrollTop();
+  
+  if($scroll > 100){
+    if(!$box.hasClass('scrolled')) 
+      $box.addClass('scrolled');
+  }
+  else
+    $box.removeClass('scrolled');
+
+}
+
+//Run on first site run
+classOnScroll();
+
+//Run on scroll and resize
+$(window).on('scroll resize',classOnScroll);
