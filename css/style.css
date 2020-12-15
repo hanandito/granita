@@ -661,5 +661,8 @@ a .text-blue:hover{
         left: 12%;
         transform: translate(0);
     }
+    .origin-home .ornament_top img{
+        width: 45%;
+    }
     
 }
