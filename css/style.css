@@ -676,4 +676,10 @@ a .text-blue:hover{
         left: 5%;
         top: 17%;
     }
+    .bubble-origin-2{
+        top: 28%;
+    }
+    .bubble-origin-2::after{
+        bottom: 30px;
+    }
 }
