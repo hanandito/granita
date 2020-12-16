@@ -639,6 +639,9 @@ a .text-blue:hover{
     top: 56px;
 }
 @media screen and (max-width: 414px) {
+    p, a, label, th, td, li, input, textarea{
+        font-size: 13px;
+    }
     h1{
         font-size: 2rem;
     }
