@@ -699,13 +699,21 @@ a .text-blue:hover{
     }
     .bubble-origin-expand{
         left: 0;
-        top: -9.1%;
+        top: -0.6%;
+        width: 360px;
+        height: 198px;
+        padding: 59px;
     }
     .bubble-origin-expand::after{
         bottom: -13px;
-        left: 10.6%;
+        left: auto;
+        right: 137px;
         border-top: 14px solid #b7926a;
         border-right: 6px solid transparent;
         border-left: 6px solid transparent;
+    }
+    .close-bubble {
+        right: 40px;
+        top: 42px;
     }
 }
