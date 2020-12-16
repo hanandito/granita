@@ -697,4 +697,15 @@ a .text-blue:hover{
         border-right: 6px solid transparent;
         border-left: 6px solid transparent;
     }
+    .bubble-origin-expand{
+        left: 0;
+        top: -9.1%;
+    }
+    .bubble-origin-expand::after{
+        bottom: -13px;
+        left: 10.6%;
+        border-top: 14px solid #b7926a;
+        border-right: 6px solid transparent;
+        border-left: 6px solid transparent;
+    }
 }
