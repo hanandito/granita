@@ -683,6 +683,7 @@ a .text-blue:hover{
     }
     .bubble-origin-2{
         top: 29%;
+        width: 100px;
     }
     .bubble-origin-2::after{
         bottom: 30px;
@@ -715,5 +716,25 @@ a .text-blue:hover{
     .close-bubble {
         right: 40px;
         top: 42px;
+    }
+    .bubble-origin-2-expand{
+        top: 40.6%;
+        left: -14.2px;
+        transform: translate(0, -50%);
+        width: 369.6px;
+        height: 219px;
+        padding: 30px 72px;
+    }
+    .banner-home, .origin-home{
+        background-image: url(../images/background-dark-origin-mobile-01.jpg);
+    }
+    .ornament_bottom.move-top  img{
+        width: 160px;
+    }
+    .origin-home .background {
+        height: 60vh;
+    }
+    .origin-home .ornament_bottom {
+        bottom: -50px;
     }
 }
