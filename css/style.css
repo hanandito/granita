@@ -518,7 +518,8 @@ a .text-blue:hover{
     opacity: 0;
 }
 .bubble-origin-2{
-    background: #b7926a;
+    background-image: url(../images/bg-content-2-origin-04.png);
+    background-position: center;
     width: 130px;
     padding: 0.3em 0.5em;
     color: #fff;
@@ -676,10 +677,24 @@ a .text-blue:hover{
         left: 5%;
         top: 17%;
     }
+    .bubble-origin{
+        left: 66.3%;
+        top: 24%;
+    }
     .bubble-origin-2{
-        top: 28%;
+        top: 29%;
     }
     .bubble-origin-2::after{
         bottom: 30px;
+        border-bottom: 12px solid #b7926a;
+        border-right: 7px solid transparent;
+        border-left: 7px solid transparent;
+    }
+    .bubble-origin::after {
+        bottom: -11px;
+        left: 11%;
+        border-top: 11px solid #b7926a;
+        border-right: 6px solid transparent;
+        border-left: 6px solid transparent;
     }
 }
