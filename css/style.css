@@ -391,7 +391,7 @@ a .text-blue:hover{
     color: #b7926a;
 }
 .dot-stats {
-    height: 12px;
+    height: 12p0;
     width: 12px;
     background-color: #d3c8be;
     border-radius: 50%;
@@ -682,19 +682,20 @@ a .text-blue:hover{
         top: 24%;
     }
     .bubble-origin-2{
-        top: 29%;
+        top: 176px;
         width: 100px;
+        left: 17.1%;
     }
     .bubble-origin-2::after{
         bottom: 30px;
-        border-bottom: 12px solid #b7926a;
+        border-bottom: 10px solid #b7926a;
         border-right: 7px solid transparent;
         border-left: 7px solid transparent;
     }
     .bubble-origin::after {
-        bottom: -11px;
+        bottom: -10px;
         left: 11%;
-        border-top: 11px solid #b7926a;
+        border-top: 10px solid #b7926a;
         border-right: 6px solid transparent;
         border-left: 6px solid transparent;
     }
@@ -709,7 +710,7 @@ a .text-blue:hover{
         bottom: -13px;
         left: auto;
         right: 137px;
-        border-top: 14px solid #b7926a;
+        border-top: 10px solid #b7926a;
         border-right: 6px solid transparent;
         border-left: 6px solid transparent;
     }
