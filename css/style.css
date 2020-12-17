@@ -757,4 +757,7 @@ a .text-blue:hover{
     .products .product-img {
         width: 120px;
     }
+    .products .product-ornament {
+        width: 100%;
+    }
 }
