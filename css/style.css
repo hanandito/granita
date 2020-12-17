@@ -754,4 +754,7 @@ a .text-blue:hover{
     .wrap-links {
         right: 20px;
     }
+    .products .product-img {
+        width: 120px;
+    }
 }
