@@ -760,4 +760,7 @@ a .text-blue:hover{
     .products .product-ornament {
         width: 100%;
     }
+    .granita-ideas .ornament-top {
+        width: 100px;
+    }
 }
