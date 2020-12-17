@@ -678,8 +678,9 @@ a .text-blue:hover{
         top: 17%;
     }
     .bubble-origin{
-        left: 66.3%;
-        top: 24%;
+        left: 62.3%;
+        top: 34%;
+        width: 86px;
     }
     .bubble-origin-2{
         top: 176px;
