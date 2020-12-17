@@ -702,13 +702,13 @@ a .text-blue:hover{
     }
     .bubble-origin-expand{
         left: 0;
-        top: -0.6%;
+        top: -8.6%;
         width: 360px;
         height: 198px;
         padding: 59px;
     }
     .bubble-origin-expand::after{
-        bottom: -13px;
+        bottom: -9px;
         left: auto;
         right: 137px;
         border-top: 10px solid #b7926a;
@@ -738,5 +738,15 @@ a .text-blue:hover{
     }
     .origin-home .ornament_bottom {
         bottom: -50px;
+    }
+    .pagi-nations .number {
+        font-size: 30px;
+        left: 20px;
+    }
+    .pagi-nations .number::before {
+        top: -40px;
+    }    
+    .pagi-nations .number::after {
+        top: 46px;
     }
 }
