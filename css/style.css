@@ -794,4 +794,12 @@ a .text-blue:hover{
         height: 100vh;
         background-color: #514f4c;
     }
+    .navbar-granita .mobile .side-menu > ul{
+        margin-top: 50px;
+    }
+    .navbar-granita .mobile .side-menu ul{
+        padding-left: 0;
+        text-align: right;
+        list-style-type: none;
+    }
 }
