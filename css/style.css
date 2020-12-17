@@ -790,7 +790,7 @@ a .text-blue:hover{
         position: fixed;
         top: 0;
         right: 0;
-        width: 100%;
+        width: 80%;
         height: 100vh;
         background-color: #514f4c;
     }
