@@ -671,7 +671,7 @@ a .text-blue:hover{
         width: 45%;
     }
     .origin-home .content {
-        width: 120%;
+        width: 100%;
     }
     .origin-home .title-origin{
         left: 0;
@@ -762,5 +762,10 @@ a .text-blue:hover{
     }
     .granita-ideas .ornament-top {
         width: 100px;
+    }
+    .image-content{
+        width: 100%;
+        overflow: hidden;
+        height: 40vh;
     }
 }
