@@ -674,8 +674,10 @@ a .text-blue:hover{
         width: 120%;
     }
     .origin-home .title-origin{
-        left: 5%;
+        left: 0;
         top: 17%;
+        right: 0;
+        margin: auto;
     }
     .bubble-origin{
         left: 62.3%;
@@ -748,5 +750,8 @@ a .text-blue:hover{
     }    
     .pagi-nations .number::after {
         top: 46px;
+    }
+    .wrap-links {
+        right: 20px;
     }
 }
