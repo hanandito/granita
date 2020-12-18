@@ -803,7 +803,7 @@ a .text-blue:hover{
         margin: 20px 0;
     }
     .navbar-granita .mobile .side-menu > ul > li, .navbar-granita .mobile .side-menu > ul > li > ul >li{
-        padding: 0 20px;
+        
     }
     .navbar-granita .mobile .side-menu ul{
         padding-left: 0;
