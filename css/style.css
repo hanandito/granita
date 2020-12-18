@@ -794,6 +794,9 @@ a .text-blue:hover{
         height: 100vh;
         background-color: #514f4c;
     }
+    .navbar-granita .mobile .side-menu li{
+        padding: 7px 0;
+    }
     .navbar-granita .mobile .side-menu > ul{
         margin-top: 50px;
         padding: 0 45px;
