@@ -602,6 +602,7 @@ a .text-blue:hover{
     z-index: 90;
     color: #fff;
     margin-bottom: 310px;
+    z-index: 3;
 }
 .wrap-links{
     position: absolute;
@@ -793,6 +794,7 @@ a .text-blue:hover{
         width: 80%;
         height: 100vh;
         background-color: #514f4c;
+        z-index: 4;
     }
     .navbar-granita .mobile .side-menu li{
         padding: 7px 0;
