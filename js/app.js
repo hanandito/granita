@@ -20,6 +20,9 @@ $('.close-bubble-2').click(function() {
 $('.icon-menu').click(function() {
   $('.side-menu').addClass("active");
 })
+$('.close-button-menu').click(function() {
+  $('.side-menu').removeClass("active");
+})
 })
 //  Favor
  $('.carousel-homebanner').addClass('owl-carousel owl-theme').owlCarousel({
