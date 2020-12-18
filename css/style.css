@@ -787,10 +787,13 @@ a .text-blue:hover{
         right: 20px;
         top: 20px;
     }
+    .side-menu.active{
+        right: 0;
+    }
     .side-menu{
         position: fixed;
         top: 0;
-        right: 0;
+        right: -100%;
         width: 80%;
         height: 100vh;
         background-color: #514f4c;
