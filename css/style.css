@@ -798,6 +798,7 @@ a .text-blue:hover{
         height: 100vh;
         background-color: #514f4c;
         z-index: 4;
+        transition: all .6s;
     }
     .navbar-granita .mobile .side-menu li{
         padding: 7px 0;

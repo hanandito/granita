@@ -17,6 +17,9 @@ $('.close-bubble-2').click(function() {
   $('.bubble-origin-2-expand').removeClass("active");
   $('.bubble-origin-2').removeClass('hide');
 })
+$('.icon-menu').click(function() {
+  $('.side-menu').addClass("active");
+})
 })
 //  Favor
  $('.carousel-homebanner').addClass('owl-carousel owl-theme').owlCarousel({
