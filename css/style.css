@@ -397,7 +397,7 @@ a .text-blue:hover{
     color: #b7926a;
 }
 .dot-stats {
-    height: 12p0;
+    height: 12px;
     width: 12px;
     background-color: #d3c8be;
     border-radius: 50%;
