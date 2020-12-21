@@ -655,6 +655,9 @@ a .text-blue:hover{
     h1{
         font-size: 2rem;
     }
+    h3{
+        font-size: 1.5rem;
+    }
     .nav-granita {
         position: absolute;
         top: 20px;
