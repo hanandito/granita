@@ -831,5 +831,6 @@ a .text-blue:hover{
     }
     .carousel-products-wrapper{
         margin: 17px;
+        padding: 20px;
     }
 }
