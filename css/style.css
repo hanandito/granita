@@ -763,7 +763,7 @@ a .text-blue:hover{
     }
     .pagi-nations .number {
         font-size: 30px;
-        left: 20px;
+        left: 7px;
     }
     .pagi-nations .number::before {
         top: -40px;
