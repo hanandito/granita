@@ -316,6 +316,7 @@ a .text-blue:hover{
     background-size: cover;
     background-position: center top;
     padding-top: 150px;
+    margin-top: -310px;
 }
 .underline-brown-products::after{
     position: absolute;
