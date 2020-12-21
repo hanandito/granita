@@ -56,7 +56,7 @@ $('.close-button-menu').click(function() {
      0: {
        items: 1,
        dots: false,
-       nav: true
+       nav: false
      },
      600: {
        items: 1,
