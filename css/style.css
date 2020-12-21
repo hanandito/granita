@@ -836,4 +836,8 @@ a .text-blue:hover{
         margin: 17px;
         padding: 20px;
     }
+    .footer .ornament-footer {
+        top: -82px;
+        width: 34%;
+    }
 }
