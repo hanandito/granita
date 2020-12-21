@@ -55,8 +55,8 @@ $('.close-button-menu').click(function() {
    responsive:{
      0: {
        items: 1,
-       dots: true,
-       nav: false
+       dots: false,
+       nav: true
      },
      600: {
        items: 1,
