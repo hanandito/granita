@@ -826,4 +826,7 @@ a .text-blue:hover{
         color: #f5921a;
         font-weight: bold;
     }
+    .product-pages-wrapper .side-content {
+        margin-left: 3rem;
+    }
 }
