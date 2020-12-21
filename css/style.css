@@ -829,4 +829,7 @@ a .text-blue:hover{
     .product-pages-wrapper .side-content {
         margin-left: 3rem;
     }
+    .carousel-products-wrapper{
+        margin: 17px;
+    }
 }
