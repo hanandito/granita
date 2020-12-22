@@ -817,6 +817,9 @@ a .text-blue:hover{
     .navbar-granita .mobile .side-menu > ul > li{
         margin: 20px 0;
     }
+    .navbar-granita .mobile .side-menu > ul > li > ul > li:hover{
+        border-left: 2px solid #f59220;
+    }
     .navbar-granita .mobile .side-menu ul{
         padding-left: 0;
         text-align: right;
