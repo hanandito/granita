@@ -850,4 +850,7 @@ a .text-blue:hover{
         width: 100%;
         padding: 10px;
     }
+    .footer {
+        padding-bottom: 0;
+    }
 }
