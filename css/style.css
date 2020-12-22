@@ -295,6 +295,9 @@ a .text-blue:hover{
     margin: 10px auto 0;
     background-color: #bcbcbc;
 }
+.form-background{
+    width: 75%;
+}
 .footer .button-submit{
     border-color: #fff;
     color: #514f4c;
