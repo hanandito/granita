@@ -70,6 +70,27 @@ $('.close-button-menu').click(function() {
      }
    }
  })
+ $('.carousel-bottom').addClass('owl-carousel owl-theme').owlCarousel({
+  loop: true,
+  navText: ["<img src='https://granita.netlify.app/images/carousel-nav-07.png'>","<img src='https://granita.netlify.app/images/carousel-nav-08.png'>"],
+  responsive:{
+    0: {
+      items: 2,
+      dots: true,
+      nav: false
+    },
+    600: {
+      items: 1,
+      dots: true,
+      nav: false
+    },
+    1000: {
+      items: 3,
+      dots: false,
+      nav: true
+    }
+  }
+})
  
     /*Animation: Moving Ornament on Scroll*/
 $(document).ready(function(){
@@ -87,7 +108,13 @@ $(document).ready(function(){
     });
 
     $('.move-top').css({
+      'transform':'translateY('+(windowTop) * -0.2 +'px)'
+    });
+    $('.product-img.first.move-top').css({
       'transform':'translateY('+(windowTop) * -0.1 +'px)'
+    });
+    $('.product-img.second.move-top').css({
+      'transform':'translateY('+(windowTop) * -0.4 +'px)'
     });
     $('.move-bottom').css({
       'transform':'translateY('+(windowTop) * -1.0 +'px)'
