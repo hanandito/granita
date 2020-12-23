@@ -242,7 +242,7 @@ a .text-blue:hover{
 }
 .origin-home .title-origin{
     position: absolute;
-    top: 24%;
+    top: 30%;
     left: 32%;
     transition: none;
     z-index: 1;
