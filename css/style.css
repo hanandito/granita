@@ -184,6 +184,9 @@ a .text-blue:hover{
     border-left: 2px solid #f5921a;
     color: #f5921a;
 }
+.nav-menu ul > li.active a{
+    color: #f5921a;
+}
 .nav-menu ul > li > ul > li.active a{
     color: #f5921a;
 }
