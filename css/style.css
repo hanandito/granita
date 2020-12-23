@@ -849,7 +849,7 @@ a .text-blue:hover{
         right: 20px;
     }
     .products .product-img {
-        width: 120px;
+        width: 100%;
     }
     .products .product-ornament {
         width: 100%;
@@ -932,8 +932,15 @@ a .text-blue:hover{
         width: 100% !important;
         border-radius: 0 !important;
         background-color: transparent !important;
-        border: 2px solid #fff;
+        border-top: 2px solid #fff;
+        border-bottom: 2px solid #fff;
         height: 10px !important;
+    }
+    .carousel-products .owl-dot:first-child span {
+        border-left: 2px solid #fff;
+    }
+    .carousel-products .owl-dot:last-child span {
+        border-right: 2px solid #fff;
     }
     .carousel-products .owl-dot.active span {
         background-color: #fff !important;
@@ -949,5 +956,8 @@ a .text-blue:hover{
         left: 0;
         margin: auto;
         font-size: 0.9rem;
+    }
+    .products .button-detail-products .button-products {
+        padding: 10px 12px;
     }
 }
