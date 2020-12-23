@@ -959,5 +959,11 @@ a .text-blue:hover{
     }
     .products .button-detail-products .button-products {
         padding: 10px 12px;
+        font-size: 13px;
+    }
+    .products {
+        padding-top: 0px;
+        padding-bottom: 140px;
+        height: 1200px;
     }
 }
