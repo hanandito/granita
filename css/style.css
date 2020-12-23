@@ -180,7 +180,7 @@ a .text-blue:hover{
 .nav-menu ul > li > ul > li > a{
     padding: 0px 15px;
 }
-.nav-menu ul > li > ul > li:hover{
+.nav-menu ul > li > ul > li:hover, .nav-menu ul > li > ul > li.active{
     border-left: 2px solid #f5921a;
 }
 /* PAGES */
