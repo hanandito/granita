@@ -203,7 +203,7 @@ a .text-blue:hover{
 .carousel-homebanner .owl-dots{
     position: absolute;
     bottom: 120px;
-    left: 34.6%;
+    left: 30.6%;
     transform: translateX(-50%);
 }
 .carousel-homebanner .owl-dot.active span{
@@ -740,6 +740,7 @@ a .text-blue:hover{
 .read-more-links.active{
     display: none;
 }
+.owl-next:focus, .owl-prev:focus, .owl-dot:focus {outline: none;}
 @media screen and (max-width: 414px) {
     p, a, label, th, td, li, input, textarea{
         font-size: 13px;
