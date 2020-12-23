@@ -950,7 +950,7 @@ a .text-blue:hover{
     .navbar-granita .mobile .side-menu > ul > li.active > a{
         color: #f5921a;
     }
-    .navbar-granita .mobile .side-menu > ul > li:hover > a{
+    .navbar-granita .mobile .side-menu > ul > li > ul > li:hover > a{
         color: #f5921a;
     }
     .navbar-granita .mobile .side-menu ul > li > ul > li.active a{
