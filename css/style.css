@@ -943,6 +943,19 @@ a .text-blue:hover{
         color: #f5921a;
         font-weight: bold;
     }
+    .navbar-granita .mobile .side-menu ul > li > ul > li:hover, .navbar-granita .mobile .side-menu ul > li > ul > li.active{
+        border-left: 2px solid #f5921a;
+        color: #f5921a;
+    }
+    .navbar-granita .mobile .side-menu > ul > li.active > a{
+        color: #f5921a;
+    }
+    .navbar-granita .mobile .side-menu > ul > li:hover > a{
+        color: #f5921a;
+    }
+    .navbar-granita .mobile .side-menu ul > li > ul > li.active a{
+        color: #f5921a;
+    }
     .product-pages-wrapper .side-content {
         margin-left: 3rem;
     }
