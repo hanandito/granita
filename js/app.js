@@ -78,7 +78,6 @@ $('.read-more-links').click(function() {
    }
  })
  $('.carousel-bottom').addClass('owl-carousel owl-theme').owlCarousel({
-  loop: true,
   navText: ["<img src='https://granita.netlify.app/images/carousel-nav-07.png'>","<img src='https://granita.netlify.app/images/carousel-nav-08.png'>"],
   responsive:{
     0: {
@@ -92,6 +91,7 @@ $('.read-more-links').click(function() {
       nav: false
     },
     1000: {
+      loop: false,
       items: 3,
       dots: false,
       nav: true
