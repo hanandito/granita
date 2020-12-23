@@ -741,7 +741,10 @@ a .text-blue:hover{
 .read-more-links.active{
     display: none;
 }
-.owl-next:focus, .owl-prev:focus, .owl-dot:focus {outline: none;}
+.owl-theme .owl-nav [class*="owl-"]:hover{
+    background: none;
+}
+.owl-next:focus, .owl-prev:focus, .owl-dot:focus {outline: none; background: none;}
 @media screen and (max-width: 414px) {
     p, a, label, th, td, li, input, textarea{
         font-size: 13px;
