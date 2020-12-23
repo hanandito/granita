@@ -40,6 +40,9 @@ body{
     src: url(Montserrat-Bold.ttf) format("truetype");
 }
 h1, h2, h3, h4, h5, h6{font-family: "GildaDisplay Regular";}
+.h3, h3 {
+    font-size: 1.55rem;
+}
 p,a,label,th,td,li, input, textarea{
     font-family: "Lato Light";
     font-size :  15px;
