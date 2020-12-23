@@ -514,7 +514,7 @@ a .text-blue:hover{
     position: absolute;
     bottom: -15px;
     left: 10%;
-    border-top: 15px solid #b7926a;
+    border-top: 15px solid rgba(183, 146, 106, 0.7);
     border-right: 8px solid transparent;
     border-left: 8px solid transparent;
     transform: translateX(-50%);
@@ -614,7 +614,7 @@ a .text-blue:hover{
     position: absolute;
     bottom: 33px;
     left: 10%;
-    border-bottom: 15px solid #b7926a;
+    border-bottom: 15px solid rgba(183, 146, 106, 0.7);
     border-right: 8px solid transparent;
     border-left: 8px solid transparent;
     transform: translateX(-50%);
@@ -804,14 +804,14 @@ a .text-blue:hover{
     }
     .bubble-origin-2::after{
         bottom: 30px;
-        border-bottom: 10px solid #b7926a;
+        border-bottom: 15px solid rgba(183, 146, 106, 0.7);
         border-right: 7px solid transparent;
         border-left: 7px solid transparent;
     }
     .bubble-origin::after {
         bottom: -10px;
         left: 11%;
-        border-top: 10px solid #b7926a;
+        border-top: 10px solid rgba(183, 146, 106, 0.7);
         border-right: 6px solid transparent;
         border-left: 6px solid transparent;
     }
