@@ -39,7 +39,7 @@ $('.read-more-links').click(function() {
      responsive:{
        0: {
          items: 1,
-         dots: true,
+         dots: false,
          nav: false
        },
        600: {
@@ -55,10 +55,11 @@ $('.read-more-links').click(function() {
      }
    })
    $('.carousel-products').addClass('owl-carousel owl-theme').owlCarousel({
-   loop: true,
+   
    navText: ["<img src='https://granita.netlify.app/images/carousel-nav-07.png'>","<img src='https://granita.netlify.app/images/carousel-nav-08.png'>"],
    responsive:{
      0: {
+      loop: true,
        items: 1,
        dots: true,
        nav: false
@@ -69,6 +70,7 @@ $('.read-more-links').click(function() {
        nav: false
      },
      1000: {
+      loop: false,
        items: 2,
        dots: false,
        nav: true
