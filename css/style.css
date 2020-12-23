@@ -228,9 +228,10 @@ a .text-blue:hover{
 .origin-home .ornament_bottom{
     position: absolute;
     right: 0;
-    bottom: -40px;
+    bottom: -126px;
     transition: none;
     z-index: 2;
+    text-align: right;
 }
 .origin-home .content{
     position: absolute;
