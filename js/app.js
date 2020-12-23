@@ -23,6 +23,11 @@ $('.icon-menu').click(function() {
 $('.close-button-menu').click(function() {
   $('.side-menu').removeClass("active");
 })
+$('.read-more-links').click(function() {
+  $('.first-phar').addClass("active");
+  $('.more-phar').addClass("active");
+  $('.read-more-links').addClass("active");
+})
 })
 //  Favor
  $('.carousel-homebanner').addClass('owl-carousel owl-theme').owlCarousel({

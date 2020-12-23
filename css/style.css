@@ -191,7 +191,7 @@ a .text-blue:hover{
 .carousel-homebanner .content-desc{
     position: absolute;
     top: 45%;
-    left: 35%;
+    left: 31%;
     transform: translate(-50%);
 }
 .carousel-homebanner .img-product{
@@ -725,6 +725,21 @@ a .text-blue:hover{
 .email-form{
     width: 350px;
 }
+.first-phar.active{
+    display: none;
+}
+.more-phar{
+    display: none;
+}
+.more-phar.active{
+    display: block;
+}
+.read-more-links{
+    cursor: pointer;
+}
+.read-more-links.active{
+    display: none;
+}
 @media screen and (max-width: 414px) {
     p, a, label, th, td, li, input, textarea{
         font-size: 13px;
@@ -971,5 +986,8 @@ a .text-blue:hover{
     }
     .email-form{
         width: 100%;
+    }
+    .full-pages-products{
+        background-image: url(../images/background-products-mobile-01-08.jpg);
     }
 }
