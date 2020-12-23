@@ -722,6 +722,9 @@ a .text-blue:hover{
 .footer p{
     color: #514f4c;
 }
+.email-form{
+    width: 350px;
+}
 @media screen and (max-width: 414px) {
     p, a, label, th, td, li, input, textarea{
         font-size: 13px;
@@ -965,5 +968,8 @@ a .text-blue:hover{
         padding-top: 0px;
         padding-bottom: 140px;
         height: 1200px;
+    }
+    .email-form{
+        width: 100%;
     }
 }
