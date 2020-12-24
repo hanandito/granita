@@ -888,7 +888,8 @@ a .text-blue:hover{
         width: 100%;
     }
     .granita-ideas .ornament-top {
-        width: 100px;
+        width: 60px;
+        top: 540px;
     }
     .image-content{
         width: 100%;
