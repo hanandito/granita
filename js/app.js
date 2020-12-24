@@ -35,16 +35,15 @@ $('.read-more-links').click(function() {
       animateIn: 'fadeIn',
       autoplay:false,
       autoplayTimeout: 5000,
-     loop: true,
-     responsive:{
+      loop: true,
+      responsive:{
        0: {
          items: 1,
-         dots: false,
-         nav: false
+         dots: true,
+         nav: true
        },
        600: {
          items: 1,
-         dots: true,
          nav: false
        },
        1000: {
@@ -55,7 +54,6 @@ $('.read-more-links').click(function() {
      }
    })
    $('.carousel-products').addClass('owl-carousel owl-theme').owlCarousel({
-   
    navText: ["<img src='https://granita.netlify.app/images/carousel-nav-07.png'>","<img src='https://granita.netlify.app/images/carousel-nav-08.png'>"],
    responsive:{
      0: {

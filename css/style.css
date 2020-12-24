@@ -304,8 +304,12 @@ a .text-blue:hover{
     padding: 10px 60px;
     position: absolute;
     bottom: -43px;
-    transform: translateX(-50%);
     font-size: 18px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 52%;
+    z-index: 2;
 }
 .products .button-detail-products .button-products:hover{
     background-color: #fff;
@@ -670,7 +674,7 @@ a .text-blue:hover{
 .pagi-nations{
     position: sticky;
     top: 80vh;
-    z-index: 90;
+    z-index: 10;
     color: #fff;
     margin-bottom: 200px;
 }
@@ -1025,7 +1029,7 @@ a .text-blue:hover{
         background-image: url(../images/background-products-mobile-01-08.jpg);
     }
     .products .product-img.second {
-        margin-top: 681px;
+        margin-top: 643px;
     }
     .granita-ideas {
         padding-top: 0;
