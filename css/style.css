@@ -1025,4 +1025,7 @@ a .text-blue:hover{
     .granita-ideas {
         padding-top: 0;
     }
+    .product-pages-wrapper { 
+        padding-top: 85px;
+    }
 }
