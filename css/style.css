@@ -305,7 +305,7 @@ a .text-blue:hover{
     position: absolute;
     bottom: -43px;
     transform: translateX(-50%);
-    font-size: 16px;
+    font-size: 18px;
 }
 .products .button-detail-products .button-products:hover{
     background-color: #fff;
