@@ -983,13 +983,13 @@ a .text-blue:hover{
         border-bottom: 2px solid #fff;
         height: 10px !important;
     }
-    .carousel-products .owl-dot:first-child span {
+    .carousel-products .owl-dot:first-child span, .carousel-bottom .owl-dot:first-child span  {
         border-left: 2px solid #fff;
     }
-    .carousel-products .owl-dot:last-child span {
+    .carousel-products .owl-dot:last-child span, .carousel-bottom .owl-dot:last-child span {
         border-right: 2px solid #fff;
     }
-    .carousel-products .owl-dot.active span {
+    .carousel-products .owl-dot.active span , .carousel-bottom .owl-dot.active span {
         background-color: #fff !important;
     }
     .product-details-wrapper .phar{
