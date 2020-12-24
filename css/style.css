@@ -1028,4 +1028,7 @@ a .text-blue:hover{
     .product-pages-wrapper { 
         padding-top: 85px;
     }
+    .image-detail-content {
+        width: 80%;
+    }
 }
