@@ -1006,7 +1006,12 @@ a .text-blue:hover{
     }
     .products .button-detail-products .button-products {
         padding: 10px 12px;
+        transform: none;
         font-size: 17px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: inline-table;
     }
     .products {
         padding-top: 0px;
