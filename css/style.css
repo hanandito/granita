@@ -1025,7 +1025,7 @@ a .text-blue:hover{
         background-image: url(../images/background-products-mobile-01-08.jpg);
     }
     .products .product-img.second {
-        margin-top: 741px;
+        margin-top: 681px;
     }
     .granita-ideas {
         padding-top: 0;
@@ -1035,5 +1035,15 @@ a .text-blue:hover{
     }
     .image-detail-content {
         width: 75%;
+    }
+    .products .wrapper {
+        height: 222px;
+    }
+    .position-relative.wrapper.second{
+        height: 420px;
+    }
+    .products {
+        padding-top: 40px;
+        height: 1080px;
     }
 }
