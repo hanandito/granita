@@ -1021,4 +1021,7 @@ a .text-blue:hover{
     .products .product-img.second {
         margin-top: 741px;
     }
+    .granita-ideas {
+        padding-top: 0;
+    }
 }
