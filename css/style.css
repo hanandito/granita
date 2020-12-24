@@ -975,7 +975,7 @@ a .text-blue:hover{
     .footer {
         padding-bottom: 0;
     }
-    .carousel-products .owl-dot span {
+    .carousel-products .owl-dot span, .carousel-bottom .owl-dot span {
         width: 100% !important;
         border-radius: 0 !important;
         background-color: transparent !important;
