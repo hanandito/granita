@@ -1011,7 +1011,7 @@ a .text-blue:hover{
         left: 0;
         right: 0;
         margin: auto;
-        display: inline-table;
+        width: 57%;
     }
     .products {
         padding-top: 0px;
