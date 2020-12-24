@@ -28,7 +28,7 @@ $('.read-more-links').click(function() {
   $('.more-phar').addClass("active");
   $('.read-more-links').addClass("active");
 })
-})
+});
 //  Favor
  $('.carousel-homebanner').addClass('owl-carousel owl-theme').owlCarousel({
       animateOut: 'fadeOut',

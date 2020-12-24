@@ -1053,4 +1053,9 @@ a .text-blue:hover{
     .title-our-products {
         margin-bottom: 0;
     }
+    .carousel-homebanner .owl-dots{
+        bottom: unset;
+        top: 40%;
+        left: 14.6%;
+    }
 }
