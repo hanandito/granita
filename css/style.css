@@ -283,6 +283,12 @@ a .text-blue:hover{
 .products .wrapper-second:hover .product-ornament{
     opacity: 1;
 }
+.products .product-ornament-first {
+    top: 40%;
+}
+.products .product-ornament-second {
+    top: 148%;
+}
 .products .product-ornament-first.active{
     opacity: 1;
     display: block;
