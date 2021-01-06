@@ -118,7 +118,13 @@ $(document).ready(function(){
     $('.product-img.first.move-top').css({
       'transform':'translateY('+(windowTop) * -0.1 +'px)'
     });
+    $('.product-ornament.first.move-top').css({
+      'transform':'translateY('+(windowTop) * -0.1 +'px)'
+    });
     $('.product-img.second.move-top').css({
+      'transform':'translateY('+(windowTop) * -0.4 +'px)'
+    });
+    $('.product-ornament.second.move-top').css({
       'transform':'translateY('+(windowTop) * -0.4 +'px)'
     });
     $('.move-bottom').css({

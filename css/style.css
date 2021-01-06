@@ -267,14 +267,25 @@ a .text-blue:hover{
 
 .products .product-ornament{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 80%;
+    left: 0;
+    right: 0;
     z-index: 0;
-}
-.products .product-ornament.active{
-    opacity: 1;
+    transition: none;
+    opacity: 0;
     visibility: visible;
+    margin-left: auto;
+    margin-right: auto;
+}
+.products .wrapper-first:hover .product-ornament{
+    opacity: 1;
+}
+.products .wrapper-second:hover .product-ornament{
+    opacity: 1;
+}
+.products .product-ornament-first.active{
+    opacity: 1;
+    display: block;
 }
 .products .product-img{
     z-index: 1;
