@@ -1035,7 +1035,10 @@ a .text-blue:hover{
         width: 57%;
     }
     .products .button-detail-products .button-products-second{
-        bottom: -200px;
+        bottom: -290px;
+    }
+    .products .button-detail-products .button-products-first{
+        bottom: -100px;
     }
     .products {
         padding-top: 0px;
@@ -1049,7 +1052,7 @@ a .text-blue:hover{
         background-image: url(../images/background-products-mobile-01-08.jpg);
     }
     .products .product-img.second {
-        margin-top: 643px;
+        margin-top: 725px;
     }
     .granita-ideas {
         padding-top: 0;
@@ -1071,11 +1074,14 @@ a .text-blue:hover{
         height: 1080px;
     }
     .title-our-products {
-        margin-bottom: 0;
+        margin-bottom: 50px;
     }
     .carousel-homebanner .owl-dots{
         bottom: unset;
         top: 40%;
         left: 14.6%;
+    }
+    .products .product-ornament-second {
+        top: 440%;
     }
 }
