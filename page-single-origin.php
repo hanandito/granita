@@ -46,62 +46,29 @@
         
                             </div>
                             <div class="carousel-products owl-theme">
-                                <div class="item text-center">
-                                    <a href="https://granita.netlify.app/products/details/black-toraja.html">
-                                        <img class="w-auto mx-auto" src="../images/items-product-page-10.png" alt="">
-                                    </a>
-                                    <a href="https://granita.netlify.app/products/details/black-toraja.html">
-                                        <h3 class="text-darkgray text-center mt-lg-3">
-                                            Black Toraja<br>
-                                            Slush
-                                        </h3>
-                                    </a>
-                                    <a href="https://granita.netlify.app/products/details/black-toraja.html" class="button-products">
-                                        More +
-                                    </a>
-                                </div>
-                                <div class="item text-center">
-                                    <a href="https://granita.netlify.app/products/details/toraja-v60.html">
-                                        <img class="w-auto mx-auto" src="../images/vshot-toraja.png" alt="">
-                                    </a>
-                                    <a href="https://granita.netlify.app/products/details/toraja-v60.html">
-                                        <h3 class="text-darkgray text-center mt-lg-3">
-                                            Toraja<br>
-                                            V60 Shot
-                                        </h3>
-                                    </a>
-                                    <a href="https://granita.netlify.app/products/details/toraja-v60.html" class="button-products">
-                                        More +
-                                    </a>
-                                </div>
-                                <div class="item text-center">
-                                    <a href="https://granita.netlify.app/products/details/black-toraja.html">
-                                        <img class="w-auto mx-auto" src="../images/items-product-page-10.png" alt="">
-                                    </a>
-                                    <a href="https://granita.netlify.app/products/details/black-toraja.html">
-                                        <h3 class="text-darkgray text-center mt-lg-3">
-                                            Black Toraja<br>
-                                            Slush
-                                        </h3>
-                                    </a>
-                                    <a href="https://granita.netlify.app/products/details/black-toraja.html" class="button-products">
-                                        More +
-                                    </a>
-                                </div>
-                                <div class="item text-center">
-                                    <a href="https://granita.netlify.app/products/details/toraja-v60.html">
-                                        <img class="w-auto mx-auto" src="../images/vshot-toraja.png" alt="">
-                                    </a>
-                                    <a href="https://granita.netlify.app/products/details/toraja-v60.html">
-                                        <h3 class="text-darkgray text-center mt-lg-3">
-                                            Toraja<br>
-                                            V60 Shot
-                                        </h3>
-                                    </a>
-                                    <a href="https://granita.netlify.app/products/details/toraja-v60.html" class="button-products">
-                                        More +
-                                    </a>
-                                </div>
+                            <?php if( have_rows('products_1') ): ?>
+                                <?php while ( have_rows('products_1') ): the_row(); ?>
+                                <?php $post_objects = get_sub_field('products');
+                                    if( $post_objects ): 
+                                        $post = $post_objects;
+                                        setup_postdata( $post ); ?>
+                                            <div class="item text-center">
+                                                <a href="<?php echo get_permalink(); ?>">
+                                                    <img class="w-auto mx-auto" src="<?php the_field('thumbnails') ?>" alt="">
+                                                </a>
+                                                <a href="<?php echo get_permalink(); ?>">
+                                                    <h3 class="text-darkgray text-center mt-lg-3">
+                                                        <?php the_field('title') ?>
+                                                    </h3>
+                                                </a>
+                                                <a href="<?php echo get_permalink(); ?>" class="button-products">
+                                                    More +
+                                                </a>
+                                            </div>
+                                        <?php wp_reset_postdata();?>
+                                    <?php endif;?>
+                                <?php endwhile; ?>
+                            <?php endif; ?>
                             </div>
                         </div>
                     </div>
@@ -121,7 +88,7 @@
                             <?php the_field('details_section_2'); ?>
                         </p>
                         <p class="text-white d-lg-none d-inline-block pt-5 ml-4">
-                            <?php the_field('detail_section_mobile_2'); ?>
+                            <?php the_field('details_section_mobile_2'); ?>
                         </p>
                     </div>
                     <div class="col-lg-6 px-lg-0 px-5">
@@ -130,20 +97,29 @@
         
                             </div>
                             <div class="carousel-products owl-theme">
-                                <div class="item text-center">
-                                    <a href="https://granita.netlify.app/products/details/aceh-gayo.html">
-                                        <img class="w-auto mx-auto" src="../images/vshot-aceh-gayo.png" alt="">
-                                    </a>
-                                    <a href="https://granita.netlify.app/products/details/aceh-gayo.html">
-                                        <h3 class="text-darkgray text-center mt-lg-3">
-                                            Aceh Gayo<br>
-                                            V60 Shot
-                                        </h3>
-                                    </a>
-                                    <a href="https://granita.netlify.app/products/details/aceh-gayo.html" class="button-products">
-                                        More +
-                                    </a>
-                                </div>
+                            <?php if( have_rows('products_2') ): ?>
+                                <?php while ( have_rows('products_2') ): the_row(); ?>
+                                <?php $post_objects = get_sub_field('products');
+                                    if( $post_objects ): 
+                                        $post = $post_objects;
+                                        setup_postdata( $post ); ?>
+                                            <div class="item text-center">
+                                                <a href="<?php echo get_permalink(); ?>">
+                                                    <img class="w-auto mx-auto" src="<?php the_field('thumbnails') ?>" alt="">
+                                                </a>
+                                                <a href="<?php echo get_permalink(); ?>">
+                                                    <h3 class="text-darkgray text-center mt-lg-3">
+                                                        <?php the_field('title') ?>
+                                                    </h3>
+                                                </a>
+                                                <a href="<?php echo get_permalink(); ?>" class="button-products">
+                                                    More +
+                                                </a>
+                                            </div>
+                                        <?php wp_reset_postdata();?>
+                                    <?php endif;?>
+                                <?php endwhile; ?>
+                            <?php endif; ?>
                             </div>
                         </div>
                     </div>

@@ -22,26 +22,24 @@
             <div class="container-fluid product-details-wrapper">
                 <div class="row mt-5">
                     <div class="col-lg-12 pt-5 side-content">
-                        <img class="my-4 mx-auto d-block img-fluid  image-detail-content" src="../../images/product-detail-toraja.png" alt="">
+                        <img class="my-4 mx-auto d-block img-fluid  image-detail-content" src="<?php the_field('images'); ?>" alt="">
                         <h3 class="text-brown text-center">
-                            Black Toraja Slush
+                        <?php the_field('title'); ?>
                         </h3>
-                        <p class="text-white text-center"><img class="mr-lg-2" src="../../images/coffee-glyphs-09.png" alt=""> Arabica</p>
+                        <p class="text-white text-center"><img class="mr-lg-2" src="../../images/coffee-glyphs-09.png" alt=""> <?php the_field('type'); ?></p>
                         <div class="text-center py-4">
                             <a href="#" class="button-buy">
                                 Buy Now +
                             </a>
                         </div>
                         <p class="text-white phar text-center mx-auto pt-lg-4 pb-lg-0 py-4 first-phar">
-                            Grown in the northern highlands of South Sulawesi, Toraja Coffee is distinguished by its expansive flavor with a full-bodied richness and undertones of ripe fruit and dark chocolate.
-A deep and brooding mustic fruit notes and rustic sweetness with a bitter aftertaste that 
+                          <?php the_field('excerpt'); ?>
                         </p>
                         <p class="text-center read-more-links text-white mx-auto pb-4 pb-lg-5">
                             Read More
                         </p>
                         <p class="text-white phar text-center mx-auto pt-lg-4 pb-lg-5 py-5 more-phar">
-                            Grown in the northern highlands of South Sulawesi, Toraja Coffee is distinguished by its expansive flavor with a full-bodied richness and undertones of ripe fruit and dark chocolate.
-A deep and brooding mustic fruit notes and rustic sweetness with a bitter aftertaste that disappear after the first sip, perfect for those who hate the bitterness.
+                          <?php the_field('full_details'); ?>
                         </p>
                         <div class="row detail-stats mx-auto px-lg-5">
                             <div class="col-lg-6">
@@ -52,11 +50,7 @@ A deep and brooding mustic fruit notes and rustic sweetness with a bitter aftert
                                         </p>
                                     </div>
                                     <div class="col-5">
-                                        <span class="dot-stats"></span>
-                                        <span class="dot-stats"></span>
-                                        <span class="dot-stats"></span>
-                                        <span class="dot-stats"></span> 
-                                        <span class="dot-stats-zero"></span>
+                                      <?php the_field('acidity'); ?>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -66,11 +60,7 @@ A deep and brooding mustic fruit notes and rustic sweetness with a bitter aftert
                                         </p>
                                     </div>
                                     <div class="col-5">
-                                        <span class="dot-stats"></span>
-                                        <span class="dot-stats"></span>
-                                        <span class="dot-stats"></span>
-                                        <span class="dot-stats"></span>
-                                        <span class="dot-stats-zero"></span> 
+                                      <?php the_field('aroma'); ?> 
                                     </div>
                                 </div>
                                 <div class="row">
@@ -80,11 +70,7 @@ A deep and brooding mustic fruit notes and rustic sweetness with a bitter aftert
                                         </p>
                                     </div>
                                     <div class="col-5">
-                                        <span class="dot-stats"></span>
-                                        <span class="dot-stats"></span>
-                                        <span class="dot-stats"></span>
-                                        <span class="dot-stats"></span>
-                                        <span class="dot-stats-zero"></span> 
+                                      <?php the_field('aftertaste'); ?> 
                                     </div>
                                 </div>
                                 <div class="row">
@@ -94,11 +80,7 @@ A deep and brooding mustic fruit notes and rustic sweetness with a bitter aftert
                                         </p>
                                     </div>
                                     <div class="col-5">
-                                        <span class="dot-stats"></span>
-                                        <span class="dot-stats"></span>
-                                        <span class="dot-stats"></span>
-                                        <span class="dot-stats"></span> 
-                                        <span class="dot-stats-zero"></span>
+                                      <?php the_field('sweetness'); ?>
                                     </div>
                                 </div>
                             </div>
@@ -110,11 +92,7 @@ A deep and brooding mustic fruit notes and rustic sweetness with a bitter aftert
                                         </p>
                                     </div>
                                     <div class="col-5">
-                                        <span class="dot-stats"></span>
-                                        <span class="dot-stats"></span>
-                                        <span class="dot-stats"></span>
-                                        <span class="dot-stats-zero"></span>
-                                        <span class="dot-stats-zero"></span>
+                                      <?php the_field('body'); ?>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -124,11 +102,7 @@ A deep and brooding mustic fruit notes and rustic sweetness with a bitter aftert
                                         </p>
                                     </div>
                                     <div class="col-5">
-                                        <span class="dot-stats"></span>
-                                        <span class="dot-stats"></span>
-                                        <span class="dot-stats"></span>
-                                        <span class="dot-stats"></span>
-                                        <span class="dot-stats-zero"></span> 
+                                      <?php the_field('clean_clup'); ?> 
                                     </div>
                                 </div>
                                 <div class="row">
@@ -138,11 +112,7 @@ A deep and brooding mustic fruit notes and rustic sweetness with a bitter aftert
                                         </p>
                                     </div>
                                     <div class="col-5">
-                                        <span class="dot-stats"></span>
-                                        <span class="dot-stats"></span>
-                                        <span class="dot-stats"></span>
-                                        <span class="dot-stats"></span> 
-                                        <span class="dot-stats-zero"></span>
+                                      <?php the_field('balance'); ?>
                                     </div>
                                 </div>
                             </div>
