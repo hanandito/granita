@@ -65,7 +65,7 @@
                             </div>
                             <div class="image-content text-center">
                                 <h1 class="text-lightgray move-top title-origin d-none d-lg-block">
-                                    The Origin of Our Coffee
+                                <?php the_field('title_origin_section'); ?>
                                 </h1>
                                 <h1 class="text-lightgray move-top title-origin d-lg-none">
                                     The Origin<br>
@@ -73,7 +73,7 @@
                                 </h1>
                                 <div class="bubble-origin">
                                     <p class="mb-0 title-content-2 font-lato-regular">
-                                        Toraja +
+                                    <?php the_field('title_content_1'); ?>
                                     </p>
                                 </div>
                                 <div class="bubble-origin-expand">
@@ -81,18 +81,18 @@
                                         <i class="fas fa-times"></i>
                                     </div>
                                     <p class="mb-lg-0 text-left">
-                                        Grown in the northern highlands of South Sulawesi, Toraja Coffee could be distinguished by its expansive flavor with a deep and brooding undertones of mustic fruit notes and rustic sweetness.
+                                    <?php the_field('details_content_1'); ?>
                                     </p>
                                 </div>
                                 <div class="bubble-origin-2">
                                     <p class="mb-0 title-content-2 font-lato-regular">
-                                        Aceh Gayo +
+                                    <?php the_field('title_content_2'); ?>
                                     </p>
                                 </div>
                                 <div class="bubble-origin-2-expand">
                                     <i class="fas fa-times close-bubble-2"></i>
                                     <p class="mb-lg-0 text-left content-detail-2">
-                                        As one of the most consumed types of coffee in the nation, Aceh Gayo Coffee has a  strong aroma and extremely mild bitter taste, a perfect blend of gourmet coffee. 
+                                    <?php the_field('details_content_2'); ?>
                                     </p>
                                 </div>
                                 <img class="content d-none d-lg-block" src="https://granita.netlify.app/images/origin-image-content-09.png" alt="">
@@ -114,7 +114,7 @@
                         <div class="row w-85 mx-auto">
                             <div class="col-lg-6 text-center pt-5">
                                 <h1 class="text-gray title-our-products">
-                                    Our Products
+                                <?php the_field('title_products'); ?>
                                 </h1>
                             </div>
                         </div>
