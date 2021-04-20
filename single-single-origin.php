@@ -135,57 +135,29 @@
             </div>
             <div class="col-lg-8">
                 <div class="carousel-bottom owl-theme">
+                <?php
+                      $params = array('post_type' => 'single-origin' , 'order' => 'DESC');
+                      $single_origin = new WP_Query($params);
+                        if($single_origin->have_posts()){
+                        while ($single_origin->have_posts()) : $single_origin->the_post();?>
                     <div class="item">
                         <div class="row my-lg-0 mt-5 mb-3">
                             <div class="col-6">
-                                <a href="https://granita.netlify.app/products/details/black-toraja.html">
-                                    <img src="../../images/item-products-bottom-section-07.png" alt="">
+                                <a href="<?php echo get_permalink(); ?>">
+                                    <img src="<?php the_field('bottom_thumbnails'); ?>" alt="">
                                 </a>
                             </div>
                             <div class="col-6">
-                                <a href="https://granita.netlify.app/products/details/black-toraja.html">
+                                <a href="<?php echo get_permalink(); ?>">
                                 <h5 class="text-darkgrey title-product">
-                                    Black Toraja<br>
-                                    Slush
+                                <?php the_field('title'); ?>
                                 </h5>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="item">
-                        <div class="row my-lg-0 mt-5 mb-3">
-                            <div class="col-6">
-                                <a href="https://granita.netlify.app/products/details/toraja-v60.html">
-                                    <img src="../../images/item-products-bottom-section-08.png" alt="">
-                                </a>
-                            </div>
-                            <div class="col-6">
-                                <a href="https://granita.netlify.app/products/details/toraja-v60.html">
-                                    <h5 class="text-darkgrey title-product">
-                                        Toraja<br>
-                                        V60 Shot
-                                    </h5>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="row my-lg-0 mt-5 mb-3">
-                            <div class="col-6">
-                                <a href="https://granita.netlify.app/products/details/aceh-gayo.html">
-                                    <img src="../../images/item-products-bottom-section-09.png" alt="">
-                                </a>
-                            </div>
-                            <div class="col-6">
-                                <a href="https://granita.netlify.app/products/details/aceh-gayo.html">
-                                    <h5 class="text-darkgrey title-product">
-                                        Aceh Gayo<br>
-                                        V60 Shot
-                                    </h5>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                    <?php 	endwhile;
+                    }?>
                 </div>
                 
             </div>

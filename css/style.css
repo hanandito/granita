@@ -510,6 +510,7 @@ a .text-blue:hover{
     top: 40%;
     transform: translate(-50%);
     color: #2d2d2b;
+    width: 72%;
 }
 .footer .ornament-footer{
     position: absolute;
@@ -1024,6 +1025,7 @@ a .text-blue:hover{
         left: 0;
         margin: auto;
         font-size: 0.9rem;
+        width: 100%;
     }
     .products .button-detail-products .button-products {
         padding: 10px 12px;
