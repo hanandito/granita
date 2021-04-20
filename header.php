@@ -18,7 +18,7 @@
     <div id="navbar-granita" class="navbar-granita">
         <div class="nav-granita">
             <div class="logo">
-                <a href="https://granita.netlify.app">
+                <a href="<?php echo home_url('');?>">
                     <img src="<?php bloginfo('stylesheet_directory');?>/images/logo-granita-06.png" alt="granita logo">
                 </a>
             </div>
@@ -26,30 +26,30 @@
         <div class="nav-menu d-none d-lg-flex">
             <ul>
                 <li>
-                    <a href="https://granita.netlify.app/products/single-origin.html">Single Origin <i class="fas fa-chevron-down"></i></a>
+                    <a href="<?php echo home_url('/single-origin/');?>">Single Origin <i class="fas fa-chevron-down"></i></a>
                     <ul>
                         <li>
-                            <a href="https://granita.netlify.app/products/details/black-toraja.html">
+                            <a href="<?php echo home_url('/black-toraja-slush/');?>">
                                 Black Toraja Slush
                             </a>
                         </li>
                         <li>
-                            <a href="https://granita.netlify.app/products/details/toraja-v60.html">
+                            <a href="<?php echo home_url('/toraja-v60-shot/');?>">
                                 Toraja V60 Slush
                             </a>
                         </li>
                         <li>
-                            <a href="https://granita.netlify.app/products/details/aceh-gayo.html">
+                            <a href="<?php echo home_url('/aceh-v60-shot/');?>">
                                 Aceh V60 Slush
                             </a>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <a href="https://granita.netlify.app/products/espresso-blends.html">Espresso Blends <i class="fas fa-chevron-down"></i></a>
+                    <a href="<?php echo home_url('/espresso-blends/');?>">Espresso Blends <i class="fas fa-chevron-down"></i></a>
                     <ul>
                         <li>
-                            <a href="https://granita.netlify.app/products/details/cafe-latte.html">
+                            <a href="<?php echo home_url('/caffe-latte/');?>">
                                 Cafe Latte
                             </a>
                         </li>
@@ -67,34 +67,34 @@
                 </div>
                 <ul>
                     <li>
-                        <a href="https://granita.netlify.app/products/single-origin.html">
+                        <a href="<?php echo home_url('/single-origin/');?>">
                             Single Origin
                         </a>
                         <ul>
                             <li>
-                                <a href="https://granita.netlify.app/products/details/black-toraja.html">
+                                <a href="<?php echo home_url('/black-toraja-slush/');?>">
                                     Black Toraja Slush
                                 </a>
                             </li>
                             <li>
-                                <a href="https://granita.netlify.app/products/details/toraja-v60.html">
+                                <a href="<?php echo home_url('/toraja-v60-shot/');?>">
                                     Toraja V60 Slush
                                 </a>
                             </li>
                             <li>
-                                <a href="https://granita.netlify.app/products/details/aceh-gayo.html">
+                                <a href="<?php echo home_url('/aceh-v60-shot/');?>">
                                     Aceh V60 Slush
                                 </a>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="https://granita.netlify.app/products/espresso-blends.html">
+                        <a href="<?php echo home_url('/espresso-blends/');?>">
                             Espresso Blends
                         </a>
                         <ul>
                             <li>
-                                <a href="https://granita.netlify.app/products/details/cafe-latte.html">
+                                <a href="<?php echo home_url('/caffe-latte/');?>">
                                     Cafe Latte
                                 </a>
                             </li>
