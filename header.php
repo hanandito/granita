@@ -29,17 +29,17 @@
                     <a href="<?php echo home_url('/single-origin/');?>">Single Origin <i class="fas fa-chevron-down"></i></a>
                     <ul>
                         <li>
-                            <a href="<?php echo home_url('/black-toraja-slush/');?>">
+                            <a href="<?php echo home_url('/single-origin/black-toraja-slush/');?>">
                                 Black Toraja Slush
                             </a>
                         </li>
                         <li>
-                            <a href="<?php echo home_url('/toraja-v60-shot/');?>">
+                            <a href="<?php echo home_url('/single-origin/toraja-v60-shot/');?>">
                                 Toraja V60 Slush
                             </a>
                         </li>
                         <li>
-                            <a href="<?php echo home_url('/aceh-v60-shot/');?>">
+                            <a href="<?php echo home_url('/single-origin/aceh-v60-shot/');?>">
                                 Aceh V60 Slush
                             </a>
                         </li>
@@ -49,7 +49,7 @@
                     <a href="<?php echo home_url('/espresso-blends/');?>">Espresso Blends <i class="fas fa-chevron-down"></i></a>
                     <ul>
                         <li>
-                            <a href="<?php echo home_url('/caffe-latte/');?>">
+                            <a href="<?php echo home_url('/espresso-blends/cafe-latte/');?>">
                                 Cafe Latte
                             </a>
                         </li>
@@ -72,17 +72,17 @@
                         </a>
                         <ul>
                             <li>
-                                <a href="<?php echo home_url('/black-toraja-slush/');?>">
+                                <a href="<?php echo home_url('/single-origin/black-toraja-slush/');?>">
                                     Black Toraja Slush
                                 </a>
                             </li>
                             <li>
-                                <a href="<?php echo home_url('/toraja-v60-shot/');?>">
+                                <a href="<?php echo home_url('/single-origin/toraja-v60-shot/');?>">
                                     Toraja V60 Slush
                                 </a>
                             </li>
                             <li>
-                                <a href="<?php echo home_url('/aceh-v60-shot/');?>">
+                                <a href="<?php echo home_url('/single-origin/aceh-v60-shot/');?>">
                                     Aceh V60 Slush
                                 </a>
                             </li>
@@ -94,7 +94,7 @@
                         </a>
                         <ul>
                             <li>
-                                <a href="<?php echo home_url('/caffe-latte/');?>">
+                                <a href="<?php echo home_url('/espresso-blends/cafe-latte/');?>">
                                     Cafe Latte
                                 </a>
                             </li>
