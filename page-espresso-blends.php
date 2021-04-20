@@ -33,9 +33,9 @@
                             <?php the_field('title_section'); ?>
                         </h3>
                         <img class="mb-5 my-lg-4" src="<?php the_field('glyphs_section'); ?>" alt="">
-                            <p class="text-white d-none d-lg-block">
-                        <?php the_field('details_section'); ?>
-                        </p>
+                          <p class="text-white d-none d-lg-block">
+                            <?php the_field('details_section'); ?>
+                          </p>
                         <p class="text-white d-lg-none d-inline-block pt-5 ml-4">
                             <?php the_field('details_section_mobile'); ?>
                         </p>

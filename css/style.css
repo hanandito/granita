@@ -422,7 +422,7 @@ a .text-blue:hover{
     width: 1px;
     background-color: #c6ad96;
     left: 50%;
-    top: 50%;
+    top: 44%;
     transform: translate(-50%, -50%);
 }
 .product-pages-wrapper .side-content{
